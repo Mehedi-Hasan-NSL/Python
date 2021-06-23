@@ -1,0 +1,78 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 23 10:42:14 2021
+
+@author: DELL
+"""
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+class Multiset:
+    
+    def __init__(self):
+        self.mul_set = []
+    def add(self, val):
+        # adds one occurrence of val from the multiset, if any
+        
+        return self.mul_set.append(val)
+        pass
+
+    def remove(self, val):
+        # removes one occurrence of val from the multiset, if any
+        for obj in self.mul_set:            
+            if obj == val:
+                #print("removing",obj)
+                return self.mul_set.remove(val)
+        pass
+    def __contains__(self, val):
+        # returns True when val is in the multiset, else returns False
+        #for obj in self.mul_set:
+            #return True
+        for obj in self.mul_set:
+            if obj == val:
+                return True
+        return False
+    
+    def __len__(self):
+        # returns the number of elements in the multiset
+        return len(self.mul_set)
+
+if __name__ == '__main__':
+    def performOperations(operations):
+        m = Multiset()
+        result = []
+        for op_str in operations:
+            elems = op_str.split()
+            if elems[0] == 'size':
+                result.append(len(m))
+            else:
+                op, val = elems[0], int(elems[1])
+                if op == 'query':
+                    result.append(val in m)
+                elif op == 'add':
+                    m.add(val)
+                    print(m.mul_set)
+                elif op == 'remove':
+                    m.remove(val)  
+        return result
+
+    q = int(input())
+    operations = []
+    for _ in range(q):
+        operations.append(input())
+
+    result = performOperations(operations)
+    
+    print(result)
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr.write('\n'.join(map(str, result)))
+    fptr.write('\n')
+    fptr.close()
