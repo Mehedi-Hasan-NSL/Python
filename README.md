@@ -10,3 +10,5 @@ https://colab.research.google.com/github/markwest1972/LSTM-Example-Google-Colabo
 
 [BERT](https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/)
 
+https://github.com/graykode/nlp-tutorial
+
