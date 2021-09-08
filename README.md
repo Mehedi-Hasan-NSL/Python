@@ -1,5 +1,10 @@
 # Extra Resources 
 
+Tensor (https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/customization/basics.ipynb)
+
+
+
+
 https://cnvrg.io/pytorch-lstm/
 
 https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-2.BERT/BERT.ipynb
