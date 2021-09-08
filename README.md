@@ -13,3 +13,5 @@ https://colab.research.google.com/github/markwest1972/LSTM-Example-Google-Colabo
 https://github.com/graykode/nlp-tutorial
 
 [Intro to Tensorflow for Deep learning github](https://github.com/anmspro/Intro-to-Tensorflow-for-Deep-Learning-Udacity)
+
+Keras RNN (https://keras.io/guides/working_with_rnns/)
