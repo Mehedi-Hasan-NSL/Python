@@ -2,7 +2,7 @@
 
 Tensor (https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/customization/basics.ipynb)
 
-Grad Secent(https://ruder.io/optimizing-gradient-descent/index.html#fnref30)
+Grad Descent(https://ruder.io/optimizing-gradient-descent/index.html#fnref30)
 
 ** [CS231](https://cs231n.github.io/neural-networks-3/) **
 
