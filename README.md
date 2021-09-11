@@ -4,7 +4,7 @@ Tensor (https://colab.research.google.com/github/tensorflow/docs/blob/master/sit
 
 Grad Secent(https://ruder.io/optimizing-gradient-descent/index.html#fnref30)
 
-**** # [CS231](https://cs231n.github.io/neural-networks-3/)
+** [CS231](https://cs231n.github.io/neural-networks-3/) **
 
 https://cnvrg.io/pytorch-lstm/
 
