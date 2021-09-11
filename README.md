@@ -2,7 +2,7 @@
 
 Tensor (https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/customization/basics.ipynb)
 
-
+Grad Secent(https://ruder.io/optimizing-gradient-descent/index.html#fnref30)
 
 
 https://cnvrg.io/pytorch-lstm/
