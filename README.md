@@ -21,3 +21,5 @@ https://github.com/graykode/nlp-tutorial
 [Intro to Tensorflow for Deep learning github](https://github.com/anmspro/Intro-to-Tensorflow-for-Deep-Learning-Udacity)
 
 Keras RNN (https://keras.io/guides/working_with_rnns/)
+
+[Bangla Generate text, sentiment analysis ](https://www.datasciencecentral.com/profiles/blogs/nlp-with-bangla-word2vec-generating-bangla-text-amp-sentiment)
