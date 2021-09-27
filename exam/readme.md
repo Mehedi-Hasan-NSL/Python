@@ -1,7 +1,7 @@
 
 ## Exam directory:
 
-Download "1.zip" and "2.zip" 
+Download "1.zip" and "2.zip"  from zip direcotries 
 
 ## Stage 1 :
 >> /home/nsl6/abir/ra_evaluation_abir/1
